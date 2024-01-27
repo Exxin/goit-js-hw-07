@@ -1,0 +1,29 @@
+.gallery {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.gallery-item {
+    flex: 1;
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#controls {
+    margin-bottom: 20px;
+}
+
+#boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin: 5px;
+    border: 1px solid #000;
+}
